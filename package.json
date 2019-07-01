@@ -1,0 +1,24 @@
+{
+  "name": "mealbookingapp",
+  "version": "1.0.0",
+  "description": "An app formealbooking ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozay10/MealBookingApp.git"
+  },
+  "keywords": [
+    "meal",
+    "chop",
+    "chow"
+  ],
+  "author": "Agbolade Adeniyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rozay10/MealBookingApp/issues"
+  },
+  "homepage": "https://github.com/rozay10/MealBookingApp#readme"
+}
