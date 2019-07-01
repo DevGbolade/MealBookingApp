@@ -1,0 +1,37 @@
+{
+  "name": "mealbookingapp",
+  "version": "1.0.0",
+  "description": "An app formealbooking ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozay10/MealBookingApp.git"
+  },
+  "keywords": [
+    "meal",
+    "chop",
+    "chow"
+  ],
+  "author": "Agbolade Adeniyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rozay10/MealBookingApp/issues"
+  },
+  "homepage": "https://github.com/rozay10/MealBookingApp#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
