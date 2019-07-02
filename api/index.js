@@ -6,6 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 const PORT = 1111;
 
+app.use(bodyParser.json());
+
 app.get('/', (req, res) => {
 res.send('Api is bootstraped and its ready to roll')
 })

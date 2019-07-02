@@ -31,6 +31,7 @@ const mealController = {
     },
 
     getSingleMeal(req, res){
+
         const id = req.params.id;
         const foundMeal = mealService.getAMeal(id);
         console.log(foundMeal);
@@ -39,6 +40,7 @@ const mealController = {
             status: "success",
             data: foundMeal
         }).status(200);
+
     }
 
 }
