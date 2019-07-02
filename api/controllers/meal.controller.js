@@ -31,12 +31,16 @@ const mealController = {
     },
 
     getSingleMeal(req, res){
-        const id = req.param.id;
-        const foundMeal = mealService.getMeal(id);
+
+        const id = req.params.id;
+        const foundMeal = mealService.getAMeal(id);
+        console.log(foundMeal);
+        
         return res.json({
             status: "success",
             data: foundMeal
-        }).status(201);
+        }).status(200);
+
     }
 
 }
